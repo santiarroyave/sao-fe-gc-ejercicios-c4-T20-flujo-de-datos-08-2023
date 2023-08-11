@@ -1,0 +1,14 @@
+C:\Users\santi\Desktop\Proyectos\Bootcamp\Repositorios\sao-fe-gc-ejercicios-c4-T20-flujo-de-datos-08-2023\T20-Flujo-de-datos\T20-Flujo-de-datos\obj\Debug\net6.0\T20-Flujo-de-datos.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\santi\Desktop\Proyectos\Bootcamp\Repositorios\sao-fe-gc-ejercicios-c4-T20-flujo-de-datos-08-2023\T20-Flujo-de-datos\T20-Flujo-de-datos\obj\Debug\net6.0\T20-Flujo-de-datos.AssemblyInfoInputs.cache
+C:\Users\santi\Desktop\Proyectos\Bootcamp\Repositorios\sao-fe-gc-ejercicios-c4-T20-flujo-de-datos-08-2023\T20-Flujo-de-datos\T20-Flujo-de-datos\obj\Debug\net6.0\T20-Flujo-de-datos.AssemblyInfo.cs
+C:\Users\santi\Desktop\Proyectos\Bootcamp\Repositorios\sao-fe-gc-ejercicios-c4-T20-flujo-de-datos-08-2023\T20-Flujo-de-datos\T20-Flujo-de-datos\obj\Debug\net6.0\T20-Flujo-de-datos.csproj.CoreCompileInputs.cache
+C:\Users\santi\Desktop\Proyectos\Bootcamp\Repositorios\sao-fe-gc-ejercicios-c4-T20-flujo-de-datos-08-2023\T20-Flujo-de-datos\T20-Flujo-de-datos\bin\Debug\net6.0\T20-Flujo-de-datos.exe
+C:\Users\santi\Desktop\Proyectos\Bootcamp\Repositorios\sao-fe-gc-ejercicios-c4-T20-flujo-de-datos-08-2023\T20-Flujo-de-datos\T20-Flujo-de-datos\bin\Debug\net6.0\T20-Flujo-de-datos.deps.json
+C:\Users\santi\Desktop\Proyectos\Bootcamp\Repositorios\sao-fe-gc-ejercicios-c4-T20-flujo-de-datos-08-2023\T20-Flujo-de-datos\T20-Flujo-de-datos\bin\Debug\net6.0\T20-Flujo-de-datos.runtimeconfig.json
+C:\Users\santi\Desktop\Proyectos\Bootcamp\Repositorios\sao-fe-gc-ejercicios-c4-T20-flujo-de-datos-08-2023\T20-Flujo-de-datos\T20-Flujo-de-datos\bin\Debug\net6.0\T20-Flujo-de-datos.dll
+C:\Users\santi\Desktop\Proyectos\Bootcamp\Repositorios\sao-fe-gc-ejercicios-c4-T20-flujo-de-datos-08-2023\T20-Flujo-de-datos\T20-Flujo-de-datos\bin\Debug\net6.0\T20-Flujo-de-datos.pdb
+C:\Users\santi\Desktop\Proyectos\Bootcamp\Repositorios\sao-fe-gc-ejercicios-c4-T20-flujo-de-datos-08-2023\T20-Flujo-de-datos\T20-Flujo-de-datos\obj\Debug\net6.0\T20-Flujo-de-datos.dll
+C:\Users\santi\Desktop\Proyectos\Bootcamp\Repositorios\sao-fe-gc-ejercicios-c4-T20-flujo-de-datos-08-2023\T20-Flujo-de-datos\T20-Flujo-de-datos\obj\Debug\net6.0\refint\T20-Flujo-de-datos.dll
+C:\Users\santi\Desktop\Proyectos\Bootcamp\Repositorios\sao-fe-gc-ejercicios-c4-T20-flujo-de-datos-08-2023\T20-Flujo-de-datos\T20-Flujo-de-datos\obj\Debug\net6.0\T20-Flujo-de-datos.pdb
+C:\Users\santi\Desktop\Proyectos\Bootcamp\Repositorios\sao-fe-gc-ejercicios-c4-T20-flujo-de-datos-08-2023\T20-Flujo-de-datos\T20-Flujo-de-datos\obj\Debug\net6.0\T20-Flujo-de-datos.genruntimeconfig.cache
+C:\Users\santi\Desktop\Proyectos\Bootcamp\Repositorios\sao-fe-gc-ejercicios-c4-T20-flujo-de-datos-08-2023\T20-Flujo-de-datos\T20-Flujo-de-datos\obj\Debug\net6.0\ref\T20-Flujo-de-datos.dll
