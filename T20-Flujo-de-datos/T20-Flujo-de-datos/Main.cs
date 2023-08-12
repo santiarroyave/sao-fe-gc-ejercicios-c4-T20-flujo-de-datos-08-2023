@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Data;
 using System.Drawing;
 using System.Linq;
+using System.Net;
 using System.Runtime.Intrinsics.X86;
 using System.Text;
 using System.Threading.Channels;
@@ -14,63 +15,81 @@ namespace T20_Flujo_de_datos
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("---------------------------");
-            Console.WriteLine("Ejercicio 1\n");
-            Ejercicio1();
-            Console.WriteLine("---------------------------");
-            Console.ReadLine();
+            //Console.WriteLine("---------------------------");
+            //Console.WriteLine("Ejercicio 1\n");
+            //Ejercicio1();
+            //Console.WriteLine("---------------------------");
+            //Console.ReadLine();
+
+            //Console.WriteLine("---------------------------");
+            //Console.WriteLine("Ejercicio 2\n");
+            //Ejercicio2();
+            //Console.WriteLine("---------------------------");
+            //Console.ReadLine();
+
+            //Console.WriteLine("---------------------------");
+            //Console.WriteLine("Ejercicio 3 \n");
+            //Ejercicio3();
+            //Console.WriteLine("---------------------------");
+            //Console.ReadLine();
+
+            //Console.WriteLine("---------------------------");
+            //Console.WriteLine("Ejercicio 4 \n");
+            //Ejercicio4();
+            //Console.WriteLine("---------------------------");
+            //Console.ReadLine();
+
+            //Console.WriteLine("---------------------------");
+            //Console.WriteLine("Ejercicio 5 \n");
+            //Ejercicio5();
+            //Console.WriteLine("---------------------------");
+            //Console.ReadLine();
+
+            //Console.WriteLine("---------------------------");
+            //Console.WriteLine("Ejercicio 6 \n");
+            //Ejercicio6();
+            //Console.WriteLine("---------------------------");
+            //Console.ReadLine();
+
+            //Console.WriteLine("---------------------------");
+            //Console.WriteLine("Ejercicio 7 \n");
+            //Ejercicio7();
+            //Console.WriteLine("---------------------------");
+            //Console.ReadLine();
+
+            //Console.WriteLine("---------------------------");
+            //Console.WriteLine("Ejercicio 8 \n");
+            //Ejercicio8();
+            //Console.WriteLine("---------------------------");
+            //Console.ReadLine();
+
+            //Console.WriteLine("---------------------------");
+            //Console.WriteLine("Ejercicio 9 \n");
+            //Ejercicio9();
+            //Console.WriteLine("---------------------------");
+            //Console.ReadLine();
+
+            //Console.WriteLine("---------------------------");
+            //Console.WriteLine("Ejercicio 10 \n");
+            //Ejercicio10();
+            //Console.WriteLine("---------------------------");
+            //Console.ReadLine();
+
+            //Console.WriteLine("---------------------------");
+            //Console.WriteLine("Ejercicio 11 \n");
+            //Ejercicio11();
+            //Console.WriteLine("---------------------------");
+            //Console.ReadLine();
+
+            //Console.WriteLine("---------------------------");
+            //Console.WriteLine("Ejercicio 12 \n");
+            //Ejercicio12();
+            //Console.WriteLine("---------------------------");
+            //Console.ReadLine();
 
             Console.WriteLine("---------------------------");
-            Console.WriteLine("Ejercicio 2\n");
-            Ejercicio2();
-            Console.WriteLine("---------------------------");
-            Console.ReadLine();
-
-            Console.WriteLine("---------------------------");
-            Console.WriteLine("Ejercicio 3 \n");
-            Ejercicio3();
-            Console.WriteLine("---------------------------");
-            Console.ReadLine();
-
-            Console.WriteLine("---------------------------");
-            Console.WriteLine("Ejercicio 4 \n");
-            Ejercicio4();
-            Console.WriteLine("---------------------------");
-            Console.ReadLine();
-
-            Console.WriteLine("---------------------------");
-            Console.WriteLine("Ejercicio 5 \n");
-            Ejercicio5();
-            Console.WriteLine("---------------------------");
-            Console.ReadLine();
-
-            Console.WriteLine("---------------------------");
-            Console.WriteLine("Ejercicio 6 \n");
-            Ejercicio6();
-            Console.WriteLine("---------------------------");
-            Console.ReadLine();
-
-            Console.WriteLine("---------------------------");
-            Console.WriteLine("Ejercicio 7 \n");
-            Ejercicio7();
-            Console.WriteLine("---------------------------");
-            Console.ReadLine();
-
-            Console.WriteLine("---------------------------");
-            Console.WriteLine("Ejercicio 8 \n");
-            Ejercicio8();
-            Console.WriteLine("---------------------------");
-            Console.ReadLine();
-
-            Console.WriteLine("---------------------------");
-            Console.WriteLine("Ejercicio 9 \n");
-            Ejercicio9();
-            Console.WriteLine("---------------------------");
-            Console.ReadLine();
-
-            Console.WriteLine("---------------------------");
-            Console.WriteLine("Ejercicio 10 \n");
-            Ejercicio10();
+            Console.WriteLine("Ejercicio 13 \n");
+            Ejercicio13();
             Console.WriteLine("---------------------------");
             Console.ReadLine();
 
@@ -259,5 +278,55 @@ namespace T20_Flujo_de_datos
 
             Console.WriteLine(string.Join(", ", listaNumeros));
         }
+
+        static void Ejercicio11() 
+        {
+            //11) Declara 2 variables numéricas(con el valor que desees), e indica cual es mayor de los dos. Si son iguales indicarlo también. Ve cambiando los valores para comprobar que funciona.
+            int[] a = { 10, 34, 124, 66, 634 };
+            int[] b = { 30, 456, 23, 66, 432 };
+
+            for (int i = 0; i < a.Length; i++)
+            {
+                Console.WriteLine("Valor 1 = {0}", a[i]);
+                Console.WriteLine("Valor 2 = {0}", b[i]);
+
+                if (a[i] > b[i])
+                {
+                    Console.WriteLine("- El numero más grande es: {0}.", a[i]);
+                }else if (a[i] < b[i])
+                {
+                    Console.WriteLine("- El numero más grande es: {0}.", b[i]);
+                }
+                else
+                {
+                    Console.WriteLine("- Los dos números son iguales.");
+                }
+                Console.WriteLine("---------------");
+            }
+        }
+
+        static void Ejercicio12()
+        {
+            //12) Declara un String que contenga tu nombre, después muestra un mensaje de bienvenida por consola. Por ejemplo: si introduzco “Fernando”, me aparezca “Bienvenido Fernando”.
+            string nombre = "Fernando";
+
+            Console.WriteLine("\nBienvenido {0}", nombre);
+        }
+
+        static void Ejercicio13()
+        {
+            //13) Modifica la aplicación anterior, para que nos pida el nombre que queremos introducir.
+            Console.WriteLine("Por favor ingresa tu nombre");
+            string nombre = Console.ReadLine();
+
+            Console.WriteLine("\nBienvenido {0}", nombre);
+        }
+
+        static void Ejercicio14()
+        {
+            //14) Haz una aplicación que calcule el área de un circulo(pi* R2). El radio se pedirá por teclado (recuerda pasar de String a double). Usa la constante PI y el método pow de Math.
+        }
+
+        
     }
 }
