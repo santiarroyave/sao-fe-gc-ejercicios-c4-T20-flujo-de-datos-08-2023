@@ -1,7 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Data;
 using System.Drawing;
 using System.Linq;
+using System.Runtime.Intrinsics.X86;
 using System.Text;
 using System.Threading.Channels;
 using System.Threading.Tasks;
@@ -42,6 +44,35 @@ namespace T20_Flujo_de_datos
             Console.WriteLine("---------------------------");
             Console.ReadLine();
 
+            Console.WriteLine("---------------------------");
+            Console.WriteLine("Ejercicio 6 \n");
+            Ejercicio6();
+            Console.WriteLine("---------------------------");
+            Console.ReadLine();
+
+            Console.WriteLine("---------------------------");
+            Console.WriteLine("Ejercicio 7 \n");
+            Ejercicio7();
+            Console.WriteLine("---------------------------");
+            Console.ReadLine();
+
+            Console.WriteLine("---------------------------");
+            Console.WriteLine("Ejercicio 8 \n");
+            Ejercicio8();
+            Console.WriteLine("---------------------------");
+            Console.ReadLine();
+
+            Console.WriteLine("---------------------------");
+            Console.WriteLine("Ejercicio 9 \n");
+            Ejercicio9();
+            Console.WriteLine("---------------------------");
+            Console.ReadLine();
+
+            Console.WriteLine("---------------------------");
+            Console.WriteLine("Ejercicio 10 \n");
+            Ejercicio10();
+            Console.WriteLine("---------------------------");
+            Console.ReadLine();
 
 
         }
@@ -134,6 +165,99 @@ namespace T20_Flujo_de_datos
                     Console.WriteLine("\nNo has ingredaso un nombre válido.");
                     break;
             }
+        }
+
+        static void Ejercicio6()
+        {
+            //6) Pedir al usuario el precio de un producto(valor positivo) y la forma de pagar (efectivo o tarjeta) si la forma de pago es mediante tarjeta, pedir el numero de cuenta(inventado)
+            Console.WriteLine("Por favor ingrese el precio del producto");
+            float precio = float.Parse(Console.ReadLine());
+            if (precio > 0)
+            {
+                Console.WriteLine("\nSi desea pagar con tarjeta pulse 1:");
+                Console.WriteLine("Si desea pagar con efectivo pulse 2:");
+                int pago = int.Parse(Console.ReadLine());
+                if (pago == 1)
+                {
+                    Console.WriteLine("\nIngrese numero de tarjeta");
+                    string numTarjeta = Console.ReadLine();
+                    
+                }else if (pago == 2)
+                {
+                    Console.WriteLine("\nPago con efectivo exitoso");
+                }else
+                {
+                    Console.WriteLine("\nMétodo de pago no valido");
+                }
+            }
+            else
+            {
+                Console.WriteLine("\nHas introducido un valor negativo");
+            }
+        }
+
+        static void Ejercicio7()
+        {
+            //7) Recorre los números del 1 al 100.Usa un bucle for.
+            int[] listaNumeros = new int[100];
+
+            for (int i = 0; i < 100; i++)
+            {
+                listaNumeros[i] = i + 1;
+            }
+
+            Console.WriteLine(string.Join(", ", listaNumeros));
+        }
+
+        static void Ejercicio8()
+        {
+            //8) Recorre los números del 1 al 100.Usa un bucle while.
+            int[] listaNumeros = new int[100];
+
+            int i = 0;
+            while (i > 100)
+            {
+                listaNumeros[i] = i + 1;
+                i++;
+            }
+
+            Console.WriteLine(string.Join(", ", listaNumeros));
+        }
+
+        static void Ejercicio9()
+        {
+            //9) Recorre los números del 1 al 100. Muestra los números pares. Usar el tipo de bucle que quieras.
+            List<int> listaNumerosPares = new List<int>();
+            int contador = 0;
+
+            for (int i = 1; i <= 100; i++)
+            {
+                if ((i % 2) == 0)
+                {
+                    listaNumerosPares.Add(i);
+                    contador++;
+                }
+            }
+
+            Console.WriteLine(string.Join(", ", listaNumerosPares));
+        }
+
+        static void Ejercicio10()
+        {
+            //10) Recorre los números del 1 al 100.Muestra los números pares o divisibles entre 3.
+            List<int> listaNumeros = new List<int>();
+            int contador = 0;
+
+            for (int i = 1; i <= 100; i++)
+            {
+                if ((i % 2) == 0 || (i % 3) == 0)
+                {
+                    listaNumeros.Add(i);
+                    contador++;
+                }
+            }
+
+            Console.WriteLine(string.Join(", ", listaNumeros));
         }
     }
 }
